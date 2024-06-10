@@ -1,0 +1,34 @@
+{
+  "documento": {
+    "tipo_dte": "01",
+    "establecimiento": "0001",
+    "condicion_pago": 1,
+    "tipo_contingencia": 1,
+    "motivo_contingencia": "Error en la DGII",
+    "receptor": {
+      "nombre": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "tipo": 1,
+        "cantidad": 10000,
+        "unidad_medida": 1,
+        "descripcion": "PRODUCTO 1",
+        "precio_unitario": 10.0
+      }
+    ],
+    "pagos": [
+      {
+        "tipo": "01",
+        "monto": 10
+      }
+    ],
+    "apendice": [
+      {
+        "campo": "Apendice1",
+        "etiqueta": "Nombre Apendice 1",
+        "valor": "Valor Apendice 1"
+      }
+    ]
+  }
+}

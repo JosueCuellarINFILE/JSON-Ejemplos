@@ -1,0 +1,26 @@
+{
+  "documento": {
+    "tipo_dte": "01",
+    "establecimiento": "0001",
+    "condicion_pago": 1,
+    "renta_retenida": 5,
+    "receptor": {
+      "nombre": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "tipo": 1,
+        "cantidad": 1,
+        "unidad_medida": 1,
+        "descripcion": "PRODUCTO 1",
+        "precio_unitario": 10.0
+      }
+    ],
+    "pagos": [
+      {
+        "tipo": "01",
+        "monto": 5.0
+      }
+    ]
+  }
+}

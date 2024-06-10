@@ -1,0 +1,50 @@
+{
+  "documento": {
+    "tipo_dte": "03",
+    "establecimiento": "0001",
+    "condicion_pago": 1,
+    "documentos_relacionados": [
+      {
+        "tipo_documento": "04",
+        "tipo_generacion": 2,
+        "numero_documento": "2C3F3C34-6353-4414-8244-7F76F3FD7DF2",
+        "fecha_emision": "2024-04-04"
+      }
+    ],
+    "receptor": {
+      "tipo_documento": "36",
+      "numero_documento": "06140086450286",
+      "nombre": "CONTRIBUYENTE S.A. DE C.V.",
+      "nrc": "24585",
+      "codigo_actividad": "63990",
+      "direccion": {
+        "departamento": "06",
+        "municipio": "14",
+        "complemento": "Calle ejemplo, edificio ejemplo"
+      },
+      "telefono": "72357079",
+      "correo": "prueba@prueba.com"
+    },
+    "items": [
+      {
+        "tipo": 1,
+        "cantidad": 1,
+        "unidad_medida": 1,
+        "descripcion": "PRODUCTO 1",
+        "precio_unitario": 10.0,
+        "tributos": [
+          {
+            "codigo": "20",
+            "monto": 1.3
+          }
+        ]
+      }
+    ],
+    "pagos": [
+      {
+        "tipo": "01",
+        "monto": 11.3
+      }
+    ]
+  }
+}

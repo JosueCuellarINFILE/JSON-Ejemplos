@@ -1,0 +1,34 @@
+{
+  "documento": {
+    "tipo_dte": "01",
+    "establecimiento": "0001",
+    "condicion_pago": 1,
+    "documentos_relacionados": [
+      {
+        "tipo_documento": "04",
+        "tipo_generacion": 2,
+        "numero_documento": "2C3F3C34-6353-4414-8244-7F76F3FD7DF2",
+        "fecha_emision": "2024-04-04"
+      }
+    ],
+    "receptor": {
+      "nombre": "CONSUMIDOR FINAL"
+    },
+    "items": [
+      {
+        "tipo": 1,
+        "cantidad": 1000,
+        "unidad_medida": 1,
+        "descripcion": "Producto 1",
+        "precio_unitario": 10.0,
+        "tipo_venta": "1"
+      }
+    ],
+    "pagos": [
+      {
+        "tipo": "01",
+        "monto": 10000
+      }
+    ]
+  }
+}

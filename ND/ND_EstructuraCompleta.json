@@ -1,0 +1,100 @@
+{
+  "documento": {
+    "tipo_dte": "06",
+    "establecimiento": null,
+    "punto_venta": null,
+    "uuid": null,
+    "numero_control": null,
+    "descuento_no_sujeto": null,
+    "descuento_exentas": null,
+    "descuento_gravadas": null,
+    "percibir_iva": null,
+    "retener_iva": null,
+    "condicion_pago": null,
+    "tipo_contingencia": null,
+    "motivo_contingencia": null,
+    "documentos_relacionados": [
+      {
+        "tipo_documento": null,
+        "tipo_generacion": null,
+        "numero_documento": null,
+        "fecha_emision": null
+      }
+    ],
+    "receptor": {
+      "tipo_documento": null,
+      "numero_documento": null,
+      "nombre": null,
+      "nrc": null,
+      "codigo_actividad": null,
+      "direccion": {
+        "departamento": null,
+        "municipio": null,
+        "complemento": null
+      },
+      "telefono": null,
+      "correo": null,
+      "correo_cc": null
+    },
+    "otros_documentos": [
+      {
+        "codigo": null,
+        "descripcion": null,
+        "detalle": null
+      }
+    ],
+    "venta_tercero": {
+      "nit": null,
+      "nombre": null
+    },
+    "items": [
+      {
+        "tipo": null,
+        "cantidad": null,
+        "unidad_medida": null,
+        "descripcion": null,
+        "precio_unitario": null,
+        "tributos": [
+          {
+            "codigo": null,
+            "monto": null,
+            "cantidad_gravable": null,
+            "precio_ref_publico": null,
+            "precio_ref_barril": null,
+            "porcentaje_aplicable": null,
+            "precio_unitario_sugerido": null
+          }
+        ],
+        "tipo_venta": null,
+        "numero_documento": null,
+        "codigo": null,
+        "descuento": null,
+        "psv": null
+      }
+    ],
+    "pagos": [
+      {
+        "tipo": null,
+        "monto": null,
+        "referencia": null,
+        "plazo": null,
+        "periodo": null
+      }
+    ],
+    "extension": {
+      "nombre_entrega": null,
+      "documento_entrega": null,
+      "nombre_recibe": null,
+      "documento_recibe": null,
+      "observaciones": null,
+      "placa_vehiculo": null
+    },
+    "apendice": [
+      {
+        "campo": null,
+        "etiqueta": null,
+        "valor": null
+      }
+    ]
+  }
+}
