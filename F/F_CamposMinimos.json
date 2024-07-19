@@ -9,7 +9,7 @@
     "items": [
       {
         "tipo": 1,
-        "cantidad": 10000,
+        "cantidad": 1,
         "unidad_medida": 1,
         "descripcion": "PRODUCTO 1",
         "precio_unitario": 10.0
